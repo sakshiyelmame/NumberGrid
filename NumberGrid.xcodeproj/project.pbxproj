@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B915A4C829B067EB008966F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4C729B067EB008966F8 /* AppDelegate.swift */; };
+		B915A4CA29B067EB008966F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4C929B067EB008966F8 /* SceneDelegate.swift */; };
+		B915A4CC29B067EB008966F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4CB29B067EB008966F8 /* ViewController.swift */; };
+		B915A4CF29B067EB008966F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B915A4CD29B067EB008966F8 /* Main.storyboard */; };
+		B915A4D129B067EC008966F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B915A4D029B067EC008966F8 /* Assets.xcassets */; };
+		B915A4D429B067EC008966F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B915A4D229B067EC008966F8 /* LaunchScreen.storyboard */; };
+		B915A4DF29B067EC008966F8 /* NumberGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4DE29B067EC008966F8 /* NumberGridTests.swift */; };
+		B915A4E929B067EC008966F8 /* NumberGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4E829B067EC008966F8 /* NumberGridUITests.swift */; };
+		B915A4EB29B067EC008966F8 /* NumberGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4EA29B067EC008966F8 /* NumberGridUITestsLaunchTests.swift */; };
+		B915A4F829B068E5008966F8 /* NumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915A4F729B068E5008966F8 /* NumberCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B915A4DB29B067EC008966F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B915A4BC29B067EB008966F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B915A4C329B067EB008966F8;
+			remoteInfo = NumberGrid;
+		};
+		B915A4E529B067EC008966F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B915A4BC29B067EB008966F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B915A4C329B067EB008966F8;
+			remoteInfo = NumberGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B915A4C429B067EB008966F8 /* NumberGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B915A4C729B067EB008966F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B915A4C929B067EB008966F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B915A4CB29B067EB008966F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B915A4CE29B067EB008966F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B915A4D029B067EC008966F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B915A4D329B067EC008966F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B915A4D529B067EC008966F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B915A4DA29B067EC008966F8 /* NumberGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B915A4DE29B067EC008966F8 /* NumberGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGridTests.swift; sourceTree = "<group>"; };
+		B915A4E429B067EC008966F8 /* NumberGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B915A4E829B067EC008966F8 /* NumberGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGridUITests.swift; sourceTree = "<group>"; };
+		B915A4EA29B067EC008966F8 /* NumberGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B915A4F729B068E5008966F8 /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B915A4C129B067EB008966F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4D729B067EC008966F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4E129B067EC008966F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B915A4BB29B067EB008966F8 = {
+			isa = PBXGroup;
+			children = (
+				B915A4C629B067EB008966F8 /* NumberGrid */,
+				B915A4DD29B067EC008966F8 /* NumberGridTests */,
+				B915A4E729B067EC008966F8 /* NumberGridUITests */,
+				B915A4C529B067EB008966F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B915A4C529B067EB008966F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B915A4C429B067EB008966F8 /* NumberGrid.app */,
+				B915A4DA29B067EC008966F8 /* NumberGridTests.xctest */,
+				B915A4E429B067EC008966F8 /* NumberGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B915A4C629B067EB008966F8 /* NumberGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B915A4C729B067EB008966F8 /* AppDelegate.swift */,
+				B915A4C929B067EB008966F8 /* SceneDelegate.swift */,
+				B915A4CB29B067EB008966F8 /* ViewController.swift */,
+				B915A4CD29B067EB008966F8 /* Main.storyboard */,
+				B915A4D029B067EC008966F8 /* Assets.xcassets */,
+				B915A4D229B067EC008966F8 /* LaunchScreen.storyboard */,
+				B915A4F729B068E5008966F8 /* NumberCollectionViewCell.swift */,
+				B915A4D529B067EC008966F8 /* Info.plist */,
+			);
+			path = NumberGrid;
+			sourceTree = "<group>";
+		};
+		B915A4DD29B067EC008966F8 /* NumberGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				B915A4DE29B067EC008966F8 /* NumberGridTests.swift */,
+			);
+			path = NumberGridTests;
+			sourceTree = "<group>";
+		};
+		B915A4E729B067EC008966F8 /* NumberGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B915A4E829B067EC008966F8 /* NumberGridUITests.swift */,
+				B915A4EA29B067EC008966F8 /* NumberGridUITestsLaunchTests.swift */,
+			);
+			path = NumberGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B915A4C329B067EB008966F8 /* NumberGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915A4EE29B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGrid" */;
+			buildPhases = (
+				B915A4C029B067EB008966F8 /* Sources */,
+				B915A4C129B067EB008966F8 /* Frameworks */,
+				B915A4C229B067EB008966F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberGrid;
+			productName = NumberGrid;
+			productReference = B915A4C429B067EB008966F8 /* NumberGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B915A4D929B067EC008966F8 /* NumberGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915A4F129B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGridTests" */;
+			buildPhases = (
+				B915A4D629B067EC008966F8 /* Sources */,
+				B915A4D729B067EC008966F8 /* Frameworks */,
+				B915A4D829B067EC008966F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B915A4DC29B067EC008966F8 /* PBXTargetDependency */,
+			);
+			name = NumberGridTests;
+			productName = NumberGridTests;
+			productReference = B915A4DA29B067EC008966F8 /* NumberGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B915A4E329B067EC008966F8 /* NumberGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B915A4F429B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGridUITests" */;
+			buildPhases = (
+				B915A4E029B067EC008966F8 /* Sources */,
+				B915A4E129B067EC008966F8 /* Frameworks */,
+				B915A4E229B067EC008966F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B915A4E629B067EC008966F8 /* PBXTargetDependency */,
+			);
+			name = NumberGridUITests;
+			productName = NumberGridUITests;
+			productReference = B915A4E429B067EC008966F8 /* NumberGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B915A4BC29B067EB008966F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B915A4C329B067EB008966F8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B915A4D929B067EC008966F8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B915A4C329B067EB008966F8;
+					};
+					B915A4E329B067EC008966F8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B915A4C329B067EB008966F8;
+					};
+				};
+			};
+			buildConfigurationList = B915A4BF29B067EB008966F8 /* Build configuration list for PBXProject "NumberGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B915A4BB29B067EB008966F8;
+			productRefGroup = B915A4C529B067EB008966F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B915A4C329B067EB008966F8 /* NumberGrid */,
+				B915A4D929B067EC008966F8 /* NumberGridTests */,
+				B915A4E329B067EC008966F8 /* NumberGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B915A4C229B067EB008966F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A4D429B067EC008966F8 /* LaunchScreen.storyboard in Resources */,
+				B915A4D129B067EC008966F8 /* Assets.xcassets in Resources */,
+				B915A4CF29B067EB008966F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4D829B067EC008966F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4E229B067EC008966F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B915A4C029B067EB008966F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A4CC29B067EB008966F8 /* ViewController.swift in Sources */,
+				B915A4F829B068E5008966F8 /* NumberCollectionViewCell.swift in Sources */,
+				B915A4C829B067EB008966F8 /* AppDelegate.swift in Sources */,
+				B915A4CA29B067EB008966F8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4D629B067EC008966F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A4DF29B067EC008966F8 /* NumberGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B915A4E029B067EC008966F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B915A4E929B067EC008966F8 /* NumberGridUITests.swift in Sources */,
+				B915A4EB29B067EC008966F8 /* NumberGridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B915A4DC29B067EC008966F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B915A4C329B067EB008966F8 /* NumberGrid */;
+			targetProxy = B915A4DB29B067EC008966F8 /* PBXContainerItemProxy */;
+		};
+		B915A4E629B067EC008966F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B915A4C329B067EB008966F8 /* NumberGrid */;
+			targetProxy = B915A4E529B067EC008966F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B915A4CD29B067EB008966F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B915A4CE29B067EB008966F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B915A4D229B067EC008966F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B915A4D329B067EC008966F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B915A4EC29B067EC008966F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B915A4ED29B067EC008966F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B915A4EF29B067EC008966F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B915A4F029B067EC008966F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NumberGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B915A4F229B067EC008966F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NumberGrid";
+			};
+			name = Debug;
+		};
+		B915A4F329B067EC008966F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NumberGrid";
+			};
+			name = Release;
+		};
+		B915A4F529B067EC008966F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberGrid;
+			};
+			name = Debug;
+		};
+		B915A4F629B067EC008966F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suniltarge.NumberGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NumberGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B915A4BF29B067EB008966F8 /* Build configuration list for PBXProject "NumberGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A4EC29B067EC008966F8 /* Debug */,
+				B915A4ED29B067EC008966F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B915A4EE29B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A4EF29B067EC008966F8 /* Debug */,
+				B915A4F029B067EC008966F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B915A4F129B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A4F229B067EC008966F8 /* Debug */,
+				B915A4F329B067EC008966F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B915A4F429B067EC008966F8 /* Build configuration list for PBXNativeTarget "NumberGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B915A4F529B067EC008966F8 /* Debug */,
+				B915A4F629B067EC008966F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B915A4BC29B067EB008966F8 /* Project object */;
+}
